@@ -1,3 +1,9 @@
+# How to set up demo environment
+Clone git repo
+
+Run `npm install` to install node modules
+
+# Useful resources
 ## React Testing Library 
 <img src="https://testing-library.com/img/octopus-128x128.png" width="50">
 
