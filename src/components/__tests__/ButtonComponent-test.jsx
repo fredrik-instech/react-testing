@@ -6,15 +6,18 @@ import { ButtonComponent } from '../ButtonComponent';
 
 afterEach(cleanup);
 
-test('Expect normal rendering', () => {
+test('Expect normal button behaviour', () => {
+  // Create mock function
   const mockFunc = jest.fn().mockImplementation();
+
   // Render
   const { getByText } = render(<ButtonComponent onClick={mockFunc} />);
   
-  expect(mockFunc).toHaveBeenCalledTimes(0)
+  expect(mockFunc).toHaveBeenCalledTimes(0);
+
   // Act
   fireEvent.click(getByText('Click me!'));
   
   // Assert
-  expect(mockFunc).toHaveBeenCalledTimes(1)
+  expect(mockFunc).toHaveBeenCalledTimes(1);
 });

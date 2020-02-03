@@ -15,7 +15,7 @@ Run `npm install` to install node modules
 [Docs](https://jestjs.io/docs/en/tutorial-react)
 
 ## React Hooks Testing Library
-<img src="https://react-hooks-testing-library.com/public/ram.png" width="50">
+<img src="https://raw.githubusercontent.com/mpeyper/react-hooks-testing-library/master/other/ram.png" width="50">
 
 [Docs](https://react-hooks-testing-library.com/usage/basic-hooks)
 
@@ -27,5 +27,5 @@ Run `npm install` to install node modules
 ## Examples
 [React Testing Library](https://github.com/kentcdodds/react-testing-library-course/tree/master/src/__tests__)
 
-[Mocking Axios / Testing a Hook](https://github.com/simoneb/axios-hooks/blob/master/src/index.test.js)
+[Mocking Axios / Testing a Hook](https://github.com/simoneb/axios-hooks/blob/master/test/index.test.js)
 
