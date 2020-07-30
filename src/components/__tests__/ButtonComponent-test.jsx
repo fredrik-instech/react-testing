@@ -20,4 +20,5 @@ test('Expect normal button behaviour', () => {
   
   // Assert
   expect(mockFunc).toHaveBeenCalledTimes(1);
+  console.log(mockFunc.mock.calls)
 });

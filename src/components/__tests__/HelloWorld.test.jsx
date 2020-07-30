@@ -10,10 +10,10 @@ afterEach(cleanup);
 
 test('Expect normal rendering', () => {
   // Render
-  const { getByText } = render(<HelloWorld />);
+  const { getByText, debug, container } = render(<HelloWorld />);
   
   // Act
-
+  debug()
   // Assert
   expect(getByText('Hello World!')).toBeInTheDocument();
 
